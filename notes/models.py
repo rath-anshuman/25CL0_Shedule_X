@@ -10,7 +10,7 @@ class SectionSelector(models.TextChoices):
 class Notes(models.Model):
     title=models.CharField(max_length=600)
     description=models.CharField(max_length=6000,null=True,blank=True)
-    file = CloudinaryField('file', resource_type='auto',null=True,blank=True) 
+    file = CloudinaryField('file', resource_type='auto',null=True,blank=True,folder='schedulex') 
     section=models.CharField(max_length=2,choices=SectionSelector.choices)
 
     created_at = models.DateTimeField(auto_now_add=True)
