@@ -4,7 +4,7 @@ from django.urls import path,include
 from notes.views import notes,notessec
 
 urlpatterns = [
-    path('', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('api/notes/',notes),
     path('api/notes/<str:sec>',notessec)
 ]
