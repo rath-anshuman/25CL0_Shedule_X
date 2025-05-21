@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'schedulex2025.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgresql://postgres.yrafphbrimvaasqqelaz:weRE8MuggCj7e0up@aws-0-ap-south-1.pooler.supabase.com:6543/postgres')
+    'default': dj_database_url.config(default='postgresql://postgres.akaluwhwrypnemeaegkd:d7cB#WCpYXzPjWH@aws-0-ap-south-1.pooler.supabase.com:6543/postgres')
 }
 
 
